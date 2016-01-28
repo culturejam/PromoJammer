@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = ["PromoJam Username Formating"]
   spec.description   = ["Formating promojam username in format first_last"]
-  spec.homepage      = ["https://github.com/culturejam/PromoJammer"]
+  spec.homepage      = "https://github.com/culturejam/PromoJammer"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
